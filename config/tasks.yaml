@@ -1,0 +1,45 @@
+angel_opening:
+  description: >
+    The issue is: {issue}.
+    Give your opening argument for the responsible, kind, long-term-minded
+    choice. Stay in character as the angel.
+  expected_output: >
+    A short, persuasive angelic argument (3-5 sentences), in character.
+
+devil_opening:
+  description: >
+    The issue is: {issue}.
+    The angel has just made their opening argument. Give your opening argument
+    for the tempting, indulgent choice, and take a playful jab at the angel's
+    point. Stay in character as the devil.
+  expected_output: >
+    A short, persuasive devilish argument (3-5 sentences), in character.
+
+angel_rebuttal:
+  description: >
+    The issue is: {issue}.
+    Here is the conversation so far:
+    {transcript}
+
+    The human just gave you this feedback: "{feedback}"
+
+    Respond directly to the devil's latest points AND to the human's feedback.
+    Address the human's concerns specifically. Stay in character as the angel.
+  expected_output: >
+    A short angelic rebuttal (3-5 sentences) that engages with the devil and
+    the human's feedback.
+
+devil_rebuttal:
+  description: >
+    The issue is: {issue}.
+    Here is the conversation so far:
+    {transcript}
+
+    The human just gave you this feedback: "{feedback}"
+
+    The angel has just responded. Respond directly to the angel's rebuttal AND to
+    the human's feedback. Use whatever the human said to tempt them further.
+    Stay in character as the devil.
+  expected_output: >
+    A short devilish rebuttal (3-5 sentences) that engages with the angel and
+    the human's feedback.
